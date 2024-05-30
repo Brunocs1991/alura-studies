@@ -27,7 +27,7 @@ const Formulario = () => {
           required
         />
       </div>
-      <Botao>Log in</Botao>
+      <Botao texto="Adicionar" />
     </form>
   )
 }
