@@ -1,14 +1,8 @@
 import React from "react";
+import {ITarefa} from "../../../types/tarefa";
 
 
-interface ItemProps {
-
-  tarefa: string;
-  tempo: string;
-
-}
-
-const Item = ({tarefa, tempo}: ItemProps) => {
+const Item = ({tarefa, tempo, selecionado, completado, id}: ITarefa) => {
   return (
     <li className="item">
       <h3>
